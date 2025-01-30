@@ -1,0 +1,298 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+    padding: 0px 60px 0px 0px; 
+    
+}
+
+li {
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+}
+
+ul li{
+    margin: 0px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    
+}
+
+ul li :hover {
+    color: yellow;
+}
+
+
+.gambar h1{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+}
+.gambar i{
+    display: flex;
+    justify-content: center;
+    color: white        ;
+
+}
+ .gambar {
+    background-image:linear-gradient(rgba(4, 2, 32, 0.589), rgba(4, 2, 43, 0.589) ), url(aset/back2.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 300px;
+    
+ }
+
+ .artikel{
+    margin: 0 50px;
+ }
+
+ .fitur .satu{
+   margin-right: 30px;
+ }
+
+ .fitur .tiga{
+    margin-left: 30px;
+ }
+
+.artikel h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+ }
+  .artikel i {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 0;
+    margin-top: -35px;
+    font-family: "poppins", sans-serif;
+  }
+
+  .button {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+  }
+
+  .button1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    margin: 20px;
+    border-radius: 5px;
+    padding: -0px 20px 0px 20px;
+    height: 40px;
+    align-items: center;
+  }
+
+.button2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 224, 9);
+    margin: 20px;
+    border-radius: 5px;
+    padding: -0px 20px 0px 20px;
+    height: 40px;
+    align-items: center;
+}
+
+.satu {
+    padding-left: 70px;
+    padding-top: 30px ;
+    padding-right: 70px;
+    background-color: rgb(236, 236, 236); 
+    
+}
+
+
+.dua {   
+    padding-left: 70px;
+    padding-top: 30px ;
+    padding-right: 70px;
+    background-color: rgb(236, 236, 236);
+    
+}
+
+.tiga {
+    padding-left: 70px;
+    padding-top: 30px ;
+    padding-right: 70px;
+    background-color: rgb(236, 236, 236);
+    
+}
+
+.fitur {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.gmb1 {
+    padding-left: 40px;
+    padding-bottom: 150px;
+}
+
+.tekk {
+    padding-left: 5px;
+    padding-top: 50px
+}
+
+.itur {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+.regist{
+    display: flex;
+    background-image: url(aset/signup.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: 0 -300px;
+    padding-top: 200px;
+    padding-left: 100px;
+    line-height: 2px;
+    font-size: x-large;
+    justify-content: space-between;
+}
+
+.regist p {
+    color: white;
+}
+
+.regist b{
+    color: white;
+}
+
+.waktu{
+    display: flex;
+    padding-top: 150px;
+    line-height: 35px;
+}
+
+.waktu div{
+    background-color: rgba(206, 204, 204, 0.452);
+    margin: 10px;
+    padding: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+
+.form
+{
+	background: #fff;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    margin-right: 200px;
+    height: 350px;
+}
+
+.form input
+{
+	margin: 15px 0;
+	padding: 15px 10px;
+	border: 1px solid rgb(84, 40, 241);
+	outline: none;
+}
+
+.form input::placeholder
+{
+	color: #413c3c;
+	font-weight: 500;
+	font-size: 0.9rem;
+}
+
+.form .button
+{
+	margin-top: 20px;
+}
+
+.form a.yellow
+{
+	text-decoration: none;
+	font-size: 0.9rem;
+	padding: 13px 35px;
+	background-color: #fff;
+	font-weight: 600;
+	border-radius: 5px;
+	color: #fff;
+	background: #fdc938;
+	transition: 0.3s ease;
+}
+
+.form a.yellow:hover
+{
+	color: rgb(21, 21, 100);
+	background: #fff;
+}
+
+.communityex{
+    text-align: center;
+        
+}
+
+.communityex p{
+    padding-bottom: 100px;
+
+}
+
+.communityfoto{
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+
+.communityfoto img{
+    background-color: #ffefdb59;
+}
+
+.communityfoto .gmbr1{
+    
+}
+
+
+
+
+    
+
+
+
+
+
+
